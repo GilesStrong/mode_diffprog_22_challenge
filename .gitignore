@@ -1,3 +1,21 @@
+# data and models
+*.pt
+*.h5
+*.hdf5
+*.gif
+temp*
+**.DS_Store
+**train_weights
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+# settings
+.vscode/*
+*.code-workspace
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
