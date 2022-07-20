@@ -15,7 +15,14 @@ For a full introduction to the challenge, please read the challenge introduction
     - At the end of the competition, final scores will be evaluated using each participants' predictions with the highest ID number
     - Additionally, every Friday before the end, the current scores on a subsample of predictions will be announced.
 
-The dataset is available for download from [here]
+The dataset is available for download from [here](https://doi.org/10.5281/zenodo.6866890).
+And can be downloaded remotely using:
+
+```bash
+mkdir data
+wget -O data/train.h5 https://zenodo.org/record/6866891/files/train.h5
+wget -O data/test.h5 https://zenodo.org/record/6866891/files/test.h5    
+```
 
 ## Data format
 
@@ -66,8 +73,33 @@ All code contained in this repo is licenced under [AGPL 3.0](https://github.com/
 
 Except where indicated, challenge_introduction.pdf is licenced under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Copyright (C) 2022 Giles C Strong.
 
-For the dataset usage and licence, please see it's [Zenodo entry]. It was produced by Giles C. Strong, Tommaso Dorigo, Andrea Giammanco, Pietro Vischia, Jan Kieseler, Maxime Lagrange, Federico Nardi, Haitham Zaraket, Max Lamparth, Federica Fanzago, Oleg Savchenko, and Anna Bordignon.
+For the dataset usage and licence, please see it's [Zenodo entry](https://doi.org/10.5281/zenodo.6866890). It was produced by Giles C. Strong, Tommaso Dorigo, Andrea Giammanco, Pietro Vischia, Jan Kieseler, Maxime Lagrange, Federico Nardi, Haitham Zaraket, Max Lamparth, Federica Fanzago, Oleg Savchenko, and Anna Bordignon.
 
 
 ## Citation
 
+Please cite this software as:
+
+Please cite the dataset as:
+@dataset{strong_giles_chatham_2022_6866891,
+  author       = {Strong, Giles Chatham and
+                  Dorigo, Tommaso and
+                  Giammanco, Andrea and
+                  Vischia, Pietro and
+                  Kieseler, Jan and
+                  Lagrange, Maxime and
+                  Nardi, Federico and
+                  Zaraket, Haitham and
+                  Lamparth, Max and
+                  Fanzango, Federica and
+                  Savchenko, Oleg and
+                  Bordignon, Anna},
+  title        = {{Dataset for the challenge at the 2nd MODE workshop 
+                   on differentiable programming 2022}},
+  month        = jul,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.6866891},
+  url          = {https://doi.org/10.5281/zenodo.6866891}
+}
