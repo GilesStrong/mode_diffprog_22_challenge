@@ -69,7 +69,7 @@ It requires Jupyter to be installed in your Python environment (e.g. by `pip ins
 
 ## Licence and reuse
 
-All code contained in this repo is licenced under [AGPL 3.0](https://github.com/GilesStrong/mode_diffprog_22_challenge/blob/main/LICENSE), Copyright (C) 2022 Giles C Strong.
+threshold_demo.ipynb is licenced under [AGPL 3.0](https://github.com/GilesStrong/mode_diffprog_22_challenge/blob/main/LICENSE), Copyright (C) 2022 Giles C Strong.
 
 Except where indicated, challenge_introduction.pdf is licenced under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Copyright (C) 2022 Giles C Strong.
 
