@@ -16,7 +16,7 @@ For a full introduction to the challenge, please read the challenge introduction
     - Additionally, every Friday before the end, the current scores on a subsample of predictions will be announced.
 
 The dataset is available for download from [here](https://doi.org/10.5281/zenodo.6866890).
-And can be downloaded remotely using:
+And can be downloaded remotely using, e.g.:
 
 ```bash
 mkdir data
@@ -81,6 +81,8 @@ For the dataset usage and licence, please see it's [Zenodo entry](https://doi.or
 Please cite this software as:
 
 Please cite the dataset as:
+
+```bibtex
 @dataset{strong_giles_chatham_2022_6866891,
   author       = {Strong, Giles Chatham and
                   Dorigo, Tommaso and
@@ -103,3 +105,4 @@ Please cite the dataset as:
   doi          = {10.5281/zenodo.6866891},
   url          = {https://doi.org/10.5281/zenodo.6866891}
 }
+```
