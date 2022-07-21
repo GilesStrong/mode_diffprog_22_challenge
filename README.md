@@ -69,6 +69,12 @@ The example notebook (threshold_demo.ipynb) demonstrates how to access and view 
 
 It requires Jupyter to be installed in your Python environment (e.g. by `pip install jupyter`), and then running `jupyter notebook` will allow you to navigate to the notebook and run it.
 
+Either clone this repository, or download the file manually with e.g.:
+
+```bash
+curl -o threshold_demo.ipynb https://raw.githubusercontent.com/GilesStrong/mode_diffprog_22_challenge/main/threshold_demo.ipynb
+```
+
 ## Licence and reuse
 
 threshold_demo.ipynb is licenced under [AGPL 3.0](https://github.com/GilesStrong/mode_diffprog_22_challenge/blob/main/LICENSE), Copyright (C) 2022 Giles C Strong.
