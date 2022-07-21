@@ -61,6 +61,8 @@ with h5py.File('MY_NAME_ID00_test_preds.h5', 'w') as h5:
 
 where `class_preds` is a Numpy array of shape (30036, 10, 10, 10) filled with integer values: 0 for soil voxels, and 1 for wall voxels
 
+For more information HDF5 in python, please refer to the [h5py documentation](https://docs.h5py.org/en/stable/)
+
 ## Starter notebook
 
 The example notebook (threshold_demo.ipynb) demonstrates how to access and view the data, and how to apply a simple thresholding approach to convert the X0 values into class predictions.
