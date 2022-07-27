@@ -72,7 +72,7 @@ It requires Jupyter to be installed in your Python environment (e.g. by `pip ins
 Either clone this repository, or download the file manually with e.g.:
 
 ```bash
-curl -o threshold_demo.ipynb https://raw.githubusercontent.com/GilesStrong/mode_diffprog_22_challenge/main/threshold_demo.ipynb
+wget -O threshold_demo.ipynb https://raw.githubusercontent.com/GilesStrong/mode_diffprog_22_challenge/main/threshold_demo.ipynb
 ```
 
 ## Licence and reuse
