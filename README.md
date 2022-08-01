@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6947863.svg)](https://doi.org/10.5281/zenodo.6947863)
+
 # Data challenge for the 2nd MODE workshop on differentiable programming
 
 ## [Crete, 12th-16th of September 2022](https://indico.cern.ch/event/1145124/)
@@ -87,6 +89,20 @@ For the dataset usage and licence, please see it's [Zenodo entry](https://doi.or
 ## Citation
 
 Please cite this software as:
+
+```bibtex
+@software{strong_giles_chatham_2022_6947863,
+  author       = {Strong, Giles Chatham},
+  title        = {{Data challenge for the 2nd MODE workshop on 
+                   differentiable programming}},
+  month        = aug,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.6947863},
+  url          = {https://doi.org/10.5281/zenodo.6947863}
+}
+```
 
 Please cite the dataset as:
 
