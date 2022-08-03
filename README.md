@@ -4,14 +4,14 @@
 
 ## [Crete, 12th-16th of September 2022](https://indico.cern.ch/event/1145124/)
 
-This repo is meant to provide a start ing point for getting up and running with the challenge, and to provide information on the rules et cetera.
+This repo is meant to provide a starting point for getting up and running with the challenge, and to provide information on the rules et cetera.
 
 For a full introduction to the challenge, please read the challenge introduction slides. To summarise:
 
 - The challenge focusses on imaging with muon tomography
 - Your task is to take 3D predictions for the radiation-length of cosmic muons in voxelised volumes, and convert them to a 3D map of the locations of stone walls buried underground: a voxelwise classification of the voxel material, 0 = soil, 1 = wall.
 - ~100,000 labelled examples are provided, and submissions must be made on ~30,000 unlabelled samples
-- Submissions must be uploaded [here](https://cernbox.cern.ch/index.php/s/ylsOYg9q7hcRk4l) before 23:59:59 CEST on 22/09/04
+- Submissions must be uploaded [here](https://cernbox.cern.ch/index.php/s/ylsOYg9q7hcRk4l) before 23:59:59 CEST on 2022/09/04
     - Submissions must be in HDF5 format in a file name following the pattern `YOUR_NAME_IDXX.h5`
     - `IDXX` is an optional ID number created by you to allow for multiple submissions
     - At the end of the competition, final scores will be evaluated using each participants' predictions with the highest ID number
