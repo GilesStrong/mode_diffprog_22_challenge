@@ -19,13 +19,13 @@ For a full introduction to the challenge, please read the challenge introduction
     - At the end of the competition, final scores will be evaluated using each participants' predictions with the highest ID number
     - Additionally, every Friday before the end, the current scores on a subsample of predictions will be announced.
 
-The dataset is available for download from [here](https://doi.org/10.5281/zenodo.6866890).
+The dataset is available for download from [here](https://doi.org/10.5281/zenodo.7050560).
 And can be downloaded remotely using, e.g.:
 
 ```bash
 mkdir data
-wget -O data/train.h5 https://zenodo.org/record/6866891/files/train.h5
-wget -O data/test.h5 https://zenodo.org/record/6866891/files/test.h5    
+wget -O data/train.h5 https://zenodo.org/record/7050560/files/train.h5
+wget -O data/test.h5 https://zenodo.org/record/7050560/files/test.h5    
 ```
 
 ## Data format
@@ -44,7 +44,7 @@ The arrays are ordered such that zeroth z layer is the bottom layer of the passi
 It can be read using e.g. the code below:
 
 ```python
-with open('train.h5') as h5:
+with h5py.File('train.h5', 'r') as h5:
     inputs = h5['x0'][()]
     targets = h5['targs'][()]
 ```
@@ -52,7 +52,7 @@ with open('train.h5') as h5:
 The test file only contains the X0 inputs:
 
 ```python
-with open('test.h5') as h5:
+with h5py.File('test.h5', 'r') as h5:
     inputs = h5['x0'][()]
 ```
 
@@ -66,6 +66,22 @@ with h5py.File('MY_NAME_ID00_test_preds.h5', 'w') as h5:
 where `class_preds` is a Numpy array of shape (30036, 10, 10, 10) filled with integer values: 0 for soil voxels, and 1 for wall voxels
 
 For more information HDF5 in python, please refer to the [h5py documentation](https://docs.h5py.org/en/stable/)
+
+### Labelled test set
+
+Following the end of the competition, the dataset has been updated to include the labelled test set, so that in future, people can score their own predictions.
+
+```bash
+wget -O data/test_private.h5 https://zenodo.org/record/7050560/files/test_private.h5 
+```
+
+The private and public splits used in the competition can be recovered using:
+
+```python
+from sklearn.model_selection import train_test_split
+
+pub, pri = train_test_split(targets, test_size=25000, random_state=3452, shuffle=True)
+```
 
 ## Starter notebook
 
