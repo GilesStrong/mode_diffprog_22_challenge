@@ -26,6 +26,7 @@ And can be downloaded remotely using, e.g.:
 mkdir data
 wget -O data/train.h5 https://zenodo.org/record/7050560/files/train.h5
 wget -O data/test.h5 https://zenodo.org/record/7050560/files/test.h5    
+wget -O data/test_private.h5 https://zenodo.org/record/7050560/files/test_private.h5 
 ```
 
 ## Data format
